@@ -1,4 +1,5 @@
 import CalltoAction from "../components/CalltoAction"
+import FeaturedListings from "../components/FeaturedListings"
 import Hero from "../components/Hero"
 import HowitWorks from "../components/HowitWorks"
 import Testimonials from "../components/Testimonials"
@@ -8,6 +9,7 @@ const Landing = () => {
   return (
     <div>
       <Hero />
+      <FeaturedListings />
       <HowitWorks />
       <Testimonials />
       <WhyChoose />

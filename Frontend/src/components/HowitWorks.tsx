@@ -2,7 +2,7 @@ import { FaSearchLocation, FaHome, FaPhoneAlt } from 'react-icons/fa'; // Import
 
 const HowitWorks = () => {
   return (
-    <div className="bg-base-100 py-16">
+    <div className="bg-gray-100 py-16"> {/* Changed background color to gray-100 */}
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold mb-4">How It Works</h2>
         <p className="text-lg text-gray-600">
