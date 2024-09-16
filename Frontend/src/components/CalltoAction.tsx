@@ -1,4 +1,10 @@
+import { useNavigate } from "react-router-dom";
+
 const CalltoAction = () => {
+  const navigate = useNavigate()
+  const handleRegister = () =>{
+    navigate("/register")
+  }
   return (
     <div 
       className="bg-primary text-neutral-content py-16 text-center"
@@ -9,7 +15,9 @@ const CalltoAction = () => {
         <button className="btn btn-secondary text-lg px-6 py-3">
           Search Properties
         </button>
-        <button className="btn btn-accent text-lg px-6 py-3">
+        <button 
+        onClick={handleRegister}
+        className="btn btn-accent text-lg px-6 py-3">
           Sign Up Now
         </button>
       </div>
